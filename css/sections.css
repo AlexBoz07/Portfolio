@@ -1,0 +1,26 @@
+html {
+    background-color: var(--white2)
+} 
+section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+#navbar, section.even {
+    background: linear-gradient(var(--primary), var(--primary-dark));
+}
+footer {
+    background: linear-gradient(var(--black), var(--black2));
+    padding: 2rem 0;
+}
+hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--primary), rgba(0, 0, 0, 0));
+    border: 0;
+    height: 0.1rem;
+    max-width: 100%;
+}
+section.even hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--white), rgba(0, 0, 0, 0));
+}
+section hr {
+    margin-bottom: 5rem;
+}
